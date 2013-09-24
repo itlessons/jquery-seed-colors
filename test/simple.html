@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+
+<style>
+    .msgs {
+        border: 2px solid #e5e5e5;
+        font-size: 12px;
+        width: 200px;
+        padding: 10px;
+    }
+
+    .username {
+        font-weight: bold;
+    }
+</style>
+
+<div class="msgs">
+    <div class="msg"><span class="username">Mark:</span> Some text1</div>
+    <div class="msg"><span class="username">Pedro:</span> Some text2</div>
+    <div class="msg"><span class="username">Brew:</span> Some text4</div>
+    <div class="msg"><span class="username">Antonio:</span> Some text4</div>
+</div>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://raw.github.com/davidbau/seedrandom/master/seedrandom.js"></script>
+<script type="text/javascript" src="../jquery.seed-colors.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".username").seedColors();
+    });
+</script>
+</body>
+</html>
