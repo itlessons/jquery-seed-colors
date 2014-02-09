@@ -32,8 +32,10 @@ Create dom elements that should be colorized:
 <div><span class="username">username3</span> some text</div>
 ```
 
-## Author
+## Links
+[Генерация цвета в чате на основе имени пользователя](http://www.itlessons.info/javascript/generate-chat-colors-by-username/)
 
+## Author
 [itlessons](http://www.itlessons.info) ([@itlessonsinfo](http://twitter.com/itlessonsinfo))
 
 ## Other
